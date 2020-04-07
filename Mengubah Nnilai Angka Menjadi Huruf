@@ -1,0 +1,39 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+ int a;
+ cout<<"Masukkan Nilai Siswa : ";
+ cin>>a;
+
+ if((a>=0)&&(a<=50))
+ {
+  cout<<"Nilai Siswa E"<<endl;
+ }
+ else if((a>=51)&&(a<=60))
+ {
+  cout<<"Nilai Siswa D"<<endl;
+ }
+ else if((a>=61)&&(a<=70))
+ {
+  cout<<"Nilai Siswa C"<<endl;
+ }
+ else if((a>=71)&&(a<=80))
+ {
+  cout<<"Nilai Siswa B"<<endl;
+ }
+ else if((a>=81)&&(a<=100))
+ {
+  cout<<"Nilai Siswa A"<<endl;
+ }
+ else
+ {
+  cout<<"Input Error";
+ }
+ getch;
+ return 0;
+}
+
